@@ -368,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KJ6PQSRJ5Y;
 				INFOPLIST_FILE = udemyAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbhart.udemyAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KJ6PQSRJ5Y;
 				INFOPLIST_FILE = udemyAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbhart.udemyAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +409,7 @@
 				5817BB531F4751BF008F6B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

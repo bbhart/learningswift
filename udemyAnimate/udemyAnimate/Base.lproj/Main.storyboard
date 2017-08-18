@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,15 +26,39 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-Dw-C8w">
                                 <rect key="frame" x="172.5" y="623" width="30" height="30"/>
                                 <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYV-Mi-RZR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn2-mL-aOt">
+                                <rect key="frame" x="210" y="623" width="46" height="30"/>
+                                <state key="normal" title="&gt;"/>
+                                <connections>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gog-23-fvU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilO-Od-SMg">
+                                <rect key="frame" x="118" y="623" width="46" height="30"/>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <action selector="prev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQq-ry-we6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eF2-Dw-C8w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2mh-Hf-mGG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Nn2-mL-aOt" secondAttribute="bottom" constant="14" id="4ks-Ts-00T"/>
                             <constraint firstItem="4Iw-a0-S3J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Goy-s7-iS6"/>
+                            <constraint firstItem="eF2-Dw-C8w" firstAttribute="leading" secondItem="ilO-Od-SMg" secondAttribute="trailing" constant="8.5" id="ntb-2A-Bxo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ilO-Od-SMg" secondAttribute="bottom" constant="14" id="wo9-3T-bUI"/>
+                            <constraint firstItem="Nn2-mL-aOt" firstAttribute="leading" secondItem="eF2-Dw-C8w" secondAttribute="trailing" constant="7.5" id="wzi-AP-nLz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eF2-Dw-C8w" secondAttribute="bottom" constant="14" id="zKF-ri-dwE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="img" destination="4Iw-a0-S3J" id="tSC-Ul-2Ac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
