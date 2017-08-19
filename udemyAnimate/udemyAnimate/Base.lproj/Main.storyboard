@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,14 +14,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="frame_00_delay-0.06s.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Iw-a0-S3J">
-                                <rect key="frame" x="-68.5" y="28" width="512" height="237"/>
+                                <rect key="frame" x="44" y="28" width="512" height="237"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF2-Dw-C8w">
-                                <rect key="frame" x="172.5" y="623" width="30" height="30"/>
+                                <rect key="frame" x="285" y="556" width="30" height="30"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYV-Mi-RZR"/>
@@ -34,14 +31,14 @@
                                 <rect key="frame" x="210" y="623" width="46" height="30"/>
                                 <state key="normal" title="&gt;"/>
                                 <connections>
-                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gog-23-fvU"/>
+                                    <action selector="nextImage" destination="BYZ-38-t0r" eventType="touchUpInside" id="gog-23-fvU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilO-Od-SMg">
                                 <rect key="frame" x="118" y="623" width="46" height="30"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <action selector="prev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQq-ry-we6"/>
+                                    <action selector="prevImage" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQq-ry-we6"/>
                                 </connections>
                             </button>
                         </subviews>

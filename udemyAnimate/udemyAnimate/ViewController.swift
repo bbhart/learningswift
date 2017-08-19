@@ -11,16 +11,26 @@ import UIKit
 class ViewController: UIViewController {
 
     var currentImage: Int = 0
+    var playing: Bool = true
+    var timer = Timer()
+    
+    
     enum Direction { case forward, reverse }
     
     @IBAction func play(_ sender: Any) {
+        if timer.isValid {
+            timer.invalidate()
+        } else {
+        
+            timer = Timer.scheduledTimer(timeInterval: 0.06, target: self, selector: #selector(ViewController.nextImage), userInfo: nil, repeats: true)
+        }
     }
     
-    @IBAction func next(_ sender: Any) {
+    @IBAction func nextImage(_ sender: Any) {
         img.image = UIImage(named: getNextImage(Direction.forward))
     }
     
-    @IBAction func prev(_ sender: Any) {
+    @IBAction func prevImage(_ sender: Any) {
         img.image = UIImage(named: getNextImage(Direction.reverse))
     }
     
@@ -51,7 +61,6 @@ class ViewController: UIViewController {
             }
         }
         let filename = String(format: filenameFormat, currentImage)
-        print("Moving to file \(filename)")
         return filename
     }
 }
