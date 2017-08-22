@@ -17,12 +17,16 @@ class ViewController: UIViewController {
     
     enum Direction { case forward, reverse }
     
+    @IBOutlet weak var playbutton: UIButton!
+    
     @IBAction func play(_ sender: Any) {
         if timer.isValid {
             timer.invalidate()
+            playbutton.setTitle("Play", for: [])
         } else {
         
             timer = Timer.scheduledTimer(timeInterval: 0.06, target: self, selector: #selector(ViewController.nextImage), userInfo: nil, repeats: true)
+            playbutton.setTitle("Stop", for: [])
         }
     }
     
@@ -38,6 +42,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Fade in
+        img.alpha = 0
+        UIView.animate(withDuration: 3) {
+            self.img.alpha = 1
+        }
         
         // Do any additional setup after loading the view, typically from a nib.
     }

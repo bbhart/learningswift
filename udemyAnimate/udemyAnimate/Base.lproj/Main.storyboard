@@ -58,6 +58,7 @@
                     </view>
                     <connections>
                         <outlet property="img" destination="4Iw-a0-S3J" id="tSC-Ul-2Ac"/>
+                        <outlet property="playbutton" destination="eF2-Dw-C8w" id="i2V-jE-RAR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
