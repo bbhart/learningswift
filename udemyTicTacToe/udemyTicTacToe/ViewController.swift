@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonTap(_ sender: UIButton) {
-        print("Tapped!")
+        print("User tapped button \(sender.tag)")
+        
     }
     
     override func viewDidLoad() {
