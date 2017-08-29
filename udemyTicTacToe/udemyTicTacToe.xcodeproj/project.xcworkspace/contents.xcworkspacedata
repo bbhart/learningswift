@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:udemyTicTacToe.xcodeproj">
+      location = "group:/Users/bhart/dev/learningswift/udemyTicTacToe/udemyTicTacToe/grid.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/bhart/dev/learningswift/udemyTicTacToe/udemyTicTacToe/o.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/bhart/dev/learningswift/udemyTicTacToe/udemyTicTacToe/x.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
