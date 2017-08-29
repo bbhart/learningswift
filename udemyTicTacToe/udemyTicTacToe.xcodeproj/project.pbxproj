@@ -42,7 +42,6 @@
 		58F3902D1F55260B003122AC /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../Desktop/x.png; sourceTree = "<group>"; };
 		58F3902E1F55260B003122AC /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../Desktop/o.png; sourceTree = "<group>"; };
 		58F390311F552749003122AC /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = ../../../../Desktop/grid.png; sourceTree = "<group>"; };
-		58F390331F553053003122AC /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +89,6 @@
 				58F3900D1F5525F0003122AC /* AppDelegate.swift */,
 				58F3900F1F5525F0003122AC /* ViewController.swift */,
 				58F390111F5525F0003122AC /* Main.storyboard */,
-				58F390331F553053003122AC /* TicTacToeGame.swift */,
 				58F390141F5525F0003122AC /* Assets.xcassets */,
 				58F390161F5525F0003122AC /* LaunchScreen.storyboard */,
 				58F390191F5525F0003122AC /* Info.plist */,
