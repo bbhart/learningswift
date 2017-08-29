@@ -33,7 +33,6 @@
                                     <constraint firstAttribute="width" constant="81" id="AGB-x1-hbP"/>
                                     <constraint firstAttribute="height" constant="88" id="cml-XX-dgc"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbt-Cr-14r"/>
                                 </connections>
@@ -44,7 +43,6 @@
                                     <constraint firstAttribute="width" constant="81" id="LXV-Zj-O1i"/>
                                     <constraint firstAttribute="height" constant="88" id="SkX-B4-64E"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Luv-QH-zYr"/>
                                 </connections>
@@ -55,7 +53,6 @@
                                     <constraint firstAttribute="width" constant="81" id="2rK-fR-xcz"/>
                                     <constraint firstAttribute="height" constant="88" id="LJs-NJ-oil"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WmX-y1-psb"/>
                                 </connections>
@@ -66,7 +63,6 @@
                                     <constraint firstAttribute="height" constant="88" id="JHT-CW-FEU"/>
                                     <constraint firstAttribute="width" constant="81" id="WbV-vB-oHb"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3x-4a-t6z"/>
                                 </connections>
@@ -77,7 +73,6 @@
                                     <constraint firstAttribute="height" constant="88" id="Q3f-Us-opd"/>
                                     <constraint firstAttribute="width" constant="81" id="lVD-dA-YyH"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RGn-Db-OlF"/>
                                 </connections>
@@ -88,9 +83,8 @@
                                     <constraint firstAttribute="height" constant="88" id="YtE-AS-5fx"/>
                                     <constraint firstAttribute="width" constant="81" id="paM-5D-Zb8"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vNR-fM-GhM"/>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="217-2A-ZvA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYH-1k-PLV">
@@ -99,7 +93,6 @@
                                     <constraint firstAttribute="width" constant="81" id="mtA-1h-XiU"/>
                                     <constraint firstAttribute="height" constant="88" id="rgx-Xw-I8a"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1P-Ax-uAQ"/>
                                 </connections>
@@ -110,7 +103,6 @@
                                     <constraint firstAttribute="height" constant="88" id="x1l-1R-Cio"/>
                                     <constraint firstAttribute="width" constant="81" id="zWU-iH-Wgg"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ew0-Sg-DRd"/>
                                 </connections>
@@ -121,7 +113,6 @@
                                     <constraint firstAttribute="width" constant="81" id="Fa0-ei-Fij"/>
                                     <constraint firstAttribute="height" constant="88" id="gdt-9K-XhQ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8X-QD-Iif"/>
                                 </connections>
