@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var game = TicTacToeGame()
     
     @IBOutlet weak var button: UIButton!
     

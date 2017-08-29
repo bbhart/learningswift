@@ -16,6 +16,7 @@
 		58F3902F1F55260B003122AC /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F3902D1F55260B003122AC /* x.png */; };
 		58F390301F55260B003122AC /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F3902E1F55260B003122AC /* o.png */; };
 		58F390321F552749003122AC /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F390311F552749003122AC /* grid.png */; };
+		58FA5D541F55359A0051822F /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA5D531F55359A0051822F /* TicTacToeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		58F3902D1F55260B003122AC /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../Desktop/x.png; sourceTree = "<group>"; };
 		58F3902E1F55260B003122AC /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../Desktop/o.png; sourceTree = "<group>"; };
 		58F390311F552749003122AC /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = ../../../../Desktop/grid.png; sourceTree = "<group>"; };
+		58FA5D531F55359A0051822F /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		58F390011F5525F0003122AC = {
 			isa = PBXGroup;
 			children = (
+				58FA5D531F55359A0051822F /* TicTacToeGame.swift */,
 				58F3900C1F5525F0003122AC /* udemyTicTacToe */,
 				58F390211F5525F0003122AC /* udemyTicTacToeTests */,
 				58F3900B1F5525F0003122AC /* Products */,
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FA5D541F55359A0051822F /* TicTacToeGame.swift in Sources */,
 				58F390101F5525F0003122AC /* ViewController.swift in Sources */,
 				58F3900E1F5525F0003122AC /* AppDelegate.swift in Sources */,
 			);
