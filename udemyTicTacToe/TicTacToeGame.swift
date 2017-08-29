@@ -10,15 +10,27 @@ import UIKit
 
 class TicTacToeGame: NSObject {
     
+    var playerturn: PlayerTurn
+    
     override init() {
         super.init()
         self.resetBoard()
+        self.playerturn = PlayerTurn.x
     }
     
     enum SquareMark: String {
         case x = "X"
         case o = "O"
         case blank = "-"
+        
+        var to_str: String {
+            return self.rawValue
+        }
+    }
+    
+    enum PlayerTurn: String {
+        case x = "X"
+        case o = "O"
         
         var to_str: String {
             return self.rawValue
