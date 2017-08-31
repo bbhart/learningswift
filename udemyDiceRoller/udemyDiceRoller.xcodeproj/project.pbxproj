@@ -12,6 +12,28 @@
 		588E5C3F1F587E690098BAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C3D1F587E690098BAFD /* Main.storyboard */; };
 		588E5C411F587E690098BAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C401F587E690098BAFD /* Assets.xcassets */; };
 		588E5C441F587E690098BAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C421F587E690098BAFD /* LaunchScreen.storyboard */; };
+		588E5C621F58ADD90098BAFD /* dice1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C4C1F587F470098BAFD /* dice1@2x.png */; };
+		588E5C631F58ADD90098BAFD /* dice1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C4D1F587F470098BAFD /* dice1@3x.png */; };
+		588E5C641F58ADD90098BAFD /* dice2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C4E1F587F470098BAFD /* dice2@2x.png */; };
+		588E5C651F58ADD90098BAFD /* dice2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C4F1F587F470098BAFD /* dice2@3x.png */; };
+		588E5C661F58ADD90098BAFD /* dice3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C501F587F470098BAFD /* dice3@2x.png */; };
+		588E5C671F58ADD90098BAFD /* dice3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C511F587F470098BAFD /* dice3@3x.png */; };
+		588E5C681F58ADD90098BAFD /* dice4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C521F587F470098BAFD /* dice4@2x.png */; };
+		588E5C691F58ADD90098BAFD /* dice4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C531F587F470098BAFD /* dice4@3x.png */; };
+		588E5C6A1F58ADD90098BAFD /* dice5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C541F587F470098BAFD /* dice5@2x.png */; };
+		588E5C6B1F58ADD90098BAFD /* dice5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C551F587F470098BAFD /* dice5@3x.png */; };
+		588E5C6C1F58ADD90098BAFD /* dice6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C561F587F470098BAFD /* dice6@2x.png */; };
+		588E5C6D1F58ADD90098BAFD /* dice6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C571F587F470098BAFD /* dice6@3x.png */; };
+		588E5C6E1F58ADD90098BAFD /* diceeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C581F587F470098BAFD /* diceeLogo@2x.png */; };
+		588E5C6F1F58ADD90098BAFD /* diceeLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C591F587F470098BAFD /* diceeLogo@3x.png */; };
+		588E5C701F58ADD90098BAFD /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5A1F587F470098BAFD /* Icon-40@2x.png */; };
+		588E5C711F58ADD90098BAFD /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5B1F587F470098BAFD /* Icon-40@3x.png */; };
+		588E5C721F58ADD90098BAFD /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5C1F587F470098BAFD /* Icon-60@2x.png */; };
+		588E5C731F58ADD90098BAFD /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5D1F587F470098BAFD /* Icon-60@3x.png */; };
+		588E5C741F58ADD90098BAFD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5E1F587F470098BAFD /* Icon-Small@2x.png */; };
+		588E5C751F58ADD90098BAFD /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C5F1F587F470098BAFD /* Icon-Small@3x.png */; };
+		588E5C761F58ADD90098BAFD /* newbackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C601F587F470098BAFD /* newbackground@2x.png */; };
+		588E5C771F58ADD90098BAFD /* newbackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E5C611F587F470098BAFD /* newbackground@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,9 +196,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588E5C651F58ADD90098BAFD /* dice2@3x.png in Resources */,
+				588E5C661F58ADD90098BAFD /* dice3@2x.png in Resources */,
 				588E5C441F587E690098BAFD /* LaunchScreen.storyboard in Resources */,
+				588E5C701F58ADD90098BAFD /* Icon-40@2x.png in Resources */,
 				588E5C411F587E690098BAFD /* Assets.xcassets in Resources */,
+				588E5C771F58ADD90098BAFD /* newbackground@3x.png in Resources */,
+				588E5C641F58ADD90098BAFD /* dice2@2x.png in Resources */,
+				588E5C671F58ADD90098BAFD /* dice3@3x.png in Resources */,
+				588E5C6C1F58ADD90098BAFD /* dice6@2x.png in Resources */,
+				588E5C6D1F58ADD90098BAFD /* dice6@3x.png in Resources */,
+				588E5C6E1F58ADD90098BAFD /* diceeLogo@2x.png in Resources */,
+				588E5C691F58ADD90098BAFD /* dice4@3x.png in Resources */,
+				588E5C721F58ADD90098BAFD /* Icon-60@2x.png in Resources */,
+				588E5C6B1F58ADD90098BAFD /* dice5@3x.png in Resources */,
+				588E5C6A1F58ADD90098BAFD /* dice5@2x.png in Resources */,
 				588E5C3F1F587E690098BAFD /* Main.storyboard in Resources */,
+				588E5C631F58ADD90098BAFD /* dice1@3x.png in Resources */,
+				588E5C681F58ADD90098BAFD /* dice4@2x.png in Resources */,
+				588E5C6F1F58ADD90098BAFD /* diceeLogo@3x.png in Resources */,
+				588E5C731F58ADD90098BAFD /* Icon-60@3x.png in Resources */,
+				588E5C761F58ADD90098BAFD /* newbackground@2x.png in Resources */,
+				588E5C751F58ADD90098BAFD /* Icon-Small@3x.png in Resources */,
+				588E5C621F58ADD90098BAFD /* dice1@2x.png in Resources */,
+				588E5C711F58ADD90098BAFD /* Icon-40@3x.png in Resources */,
+				588E5C741F58ADD90098BAFD /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

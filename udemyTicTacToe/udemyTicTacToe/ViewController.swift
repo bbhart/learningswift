@@ -15,7 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonTap(_ sender: UIButton) {
+        if game.playerturn == TicTacToeGame.PlayerTurn.x {
+            // Try to play a square
+            if game.playASquare(square: (sender.tag - 1), mark: TicTacToeGame.SquareMark.x) {
+                print("Played X on square \(sender.tag - 1)")
+            } else {
+                print("Player rejected on square \(sender.tag - 1)")
+            }
+        }
         print("User tapped button \(sender.tag)")
+        
         
     }
     

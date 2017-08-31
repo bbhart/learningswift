@@ -10,7 +10,7 @@ import UIKit
 
 class TicTacToeGame: NSObject {
     
-    var playerturn: PlayerTurn
+    var playerturn: PlayerTurn = PlayerTurn.x
     
     override init() {
         super.init()
