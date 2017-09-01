@@ -10,27 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var dice: UIImageView!
-    
+    override var canBecomeFirstResponder: Bool {
+        get {
+            return true
+        }
+    }
     
     @IBOutlet weak var die1: UIImageView!
     @IBOutlet weak var die2: UIImageView!
     
     @IBAction func roll(_ sender: Any) {
+        rollDice()
         
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.becomeFirstResponder()
+        rollDice()
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            rollDice()
+        }
+    }
+    
+    internal func rollDice() {
         let dice = (arc4random_uniform(5) + 1, arc4random_uniform(5) + 1)
         print("Rolled \(dice)")
         
         die1.image = UIImage(named: "dice\(dice.0).png")
         die2.image = UIImage(named: "dice\(dice.1).png")
-        
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-    }
 
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
