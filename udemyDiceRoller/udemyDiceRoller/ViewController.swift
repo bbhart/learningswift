@@ -17,10 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var die2: UIImageView!
     
     @IBAction func roll(_ sender: Any) {
-        //var dice: (UInt32, UInt32) = (0, 0)
         
         let dice = (arc4random_uniform(5) + 1, arc4random_uniform(5) + 1)
         print("Rolled \(dice)")
+        
+        die1.image = UIImage(named: "dice\(dice.0).png")
+        die2.image = UIImage(named: "dice\(dice.1).png")
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
